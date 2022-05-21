@@ -1,0 +1,36 @@
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.search-input {
+  border: none;
+  border-color: #111;
+  border-radius: 5px;
+  font-size: 14px;
+  height: 30px;
+  padding-left: 8px;
+  width: 45%;
+}
+
+.search-icon {
+  border: none;
+  margin-left: 10px;
+  font-size: 25px;
+  background: none;
+  color: white;
+}
+
+@media (min-width: 1000px) {
+  .search-input {
+    width: 30%;
+  }
+}
+
+@media (max-width: 768px) {
+  .search-input {
+    width: 70%;
+  }
+}
